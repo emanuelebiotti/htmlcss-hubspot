@@ -159,6 +159,7 @@ nav {
   height:700px;
   background-image: linear-gradient(to right, #699cef,#51BBCE);
   border-bottom: 3px solid #0e3f8e;
+  position: relative;
 
 }
 
@@ -168,16 +169,20 @@ nav {
   width:35%;
   height:60%;
   border:1px solid red;
-  position: relative;
+  position: absolute;
+  top:15%;
+  left:15%;
+  transform: translate(-15%, 0);
+
 
 }
 
 .presentationText h1 {
 
   color:white;
-  font-size: 50px;
+  font-size: 45px;
   font-family: verdana;
-  padding:4%;
+  padding:5%;
 }
 
 .presentationText p {
@@ -185,7 +190,7 @@ nav {
   color:white;
   font-family: "Lucida Console";
   padding:4%;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 .presentationText button {
@@ -199,9 +204,50 @@ nav {
 
 }
 
+
 .slogan {
 
   width:100%;
   height: 500px;
   background-color: #F4F8FA;
+  position: relative;
+}
+
+.sloganImage {
+
+  width:30%;
+  height: 50%;
+  border:1px solid red;
+  position: absolute;
+  left:50%;
+  top:30%;
+  transform: translate(-50%, -30%);
+}
+
+.sloganImage img {
+
+  width:65%;
+  height:auto;
+  margin-left:20%;
+}
+
+.sloganText {
+
+  width:50%;
+  height: 100px;
+  border:1px solid red;
+  position: absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%, 0);
+}
+
+.sloganText h1, p {
+
+  text-align: center;
+}
+
+.sloganText p {
+
+  line-height: 25px;
 }
