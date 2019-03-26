@@ -369,3 +369,24 @@ nav {
   display: inline-block;
   margin-right: 20px;
 }
+
+.hubs {
+
+  width: 70%;
+  height: 600px;
+  border:1px solid red;
+  position: absolute;
+  top:55%;
+  left:50%;
+  transform:translate(-50%, 0);
+}
+
+.marketingHub, .salesHub, .serviceHub {
+
+  width: 30%;
+  height: 90%;
+  border:1px solid red;
+  float:left;
+
+}
+ 
