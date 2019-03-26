@@ -253,7 +253,6 @@ nav {
 
   width: 70%;
   height:300px;
-  border:1px solid red;
   position: absolute;
   top:40%;
   left:50%;
@@ -298,10 +297,75 @@ nav {
   width:60%;
   height:100%;
   float:left;
+  position: relative;
 
 }
 
-.crm p {
+.free {
+
+  width:100%;
+  height:50%;
+  position: relative;
+
+}
+
+
+.free h2, p {
 
   text-align: left;
+
+}
+
+.free h2 {
+
+  position:absolute;
+  top:30%;
+  left:10%;
+}
+
+.free p {
+
+  position:absolute;
+  top:60%;
+  left:10%;
+  line-height: 25px;
+}
+
+.popular {
+
+  width:100%;
+  height: 50%;
+  position: absolute;
+  bottom:0;
+}
+
+.popular p {
+
+  font-weight: bold;
+  display:inline-block;
+  float: left;
+  margin-left:60px;
+  position:absolute;
+  top:5%;
+}
+
+.popular hr {
+
+  width:260px;
+  position:absolute;
+  left:42%;
+  top:10%;
+}
+
+.popular ul {
+
+  position:absolute;
+  top:30%;
+  left:3%;
+}
+
+.popular ul li {
+
+  display: inline-block;
+  margin-right: 20px;
 }
