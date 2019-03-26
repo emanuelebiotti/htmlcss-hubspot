@@ -533,19 +533,22 @@ footer {
 
 .communityBox h1, p {
 
-  color:white;
   text-align: center;
+
 }
 
 .communityBox h1 {
 
   margin-top: 10%;
+  color:white;
+
 }
 
 .communityBox p {
 
   margin-top: 20px;
   line-height: 30px;
+  color:white;
 }
 
 .numbers {
@@ -592,4 +595,55 @@ border-right: none;
 .numbersBox:nth-child(5) {
 
   border-left: none;
+}
+
+.customers {
+
+  width:80%;
+  height:50%;
+  border:1px solid red;
+  margin:auto;
+}
+
+.countries {
+
+  width:40%;
+  height:100%;
+  float:left;
+  border:1px solid red;
+}
+
+.examples {
+
+  width:60%;
+  height:100%;
+  float:right;
+  border:1px solid red;
+}
+
+.today {
+
+  width: 80%;
+  height: 50%;
+  margin:auto;
+  border:1px solid red;
+
+}
+
+.start {
+
+  width:40%;
+  height:100%;
+  float:left;
+  border:1px solid red;
+
+}
+
+.smile {
+
+  width:60%;
+  height:100%;
+  float:right;
+  border:1px solid red;
+
 }
