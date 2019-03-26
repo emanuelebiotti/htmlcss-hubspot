@@ -375,7 +375,7 @@ nav {
   width: 70%;
   height: 600px;
   border:1px solid red;
-  position: absolute;
+  position: relative;
   top:55%;
   left:50%;
   transform:translate(-50%, 0);
@@ -387,6 +387,45 @@ nav {
   height: 90%;
   border:1px solid red;
   float:left;
-
+  background-color: white;
 }
- 
+
+.marketingHub {
+
+  position: absolute;
+  left:0;
+}
+
+.salesHub {
+
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.serviceHub {
+
+  position: absolute;
+  right:0;
+}
+
+.community {
+
+  width: 100%;
+  height:800px;
+  background-color: #00BAA9;
+}
+
+.growing {
+
+  width:100%;
+  height:800px;
+  background-color: #F4F8FA;
+}
+
+footer {
+
+  width:100%;
+  height:700px;
+  background-color: #32475B;
+}
