@@ -611,6 +611,42 @@ border-right: none;
   height:100%;
   float:left;
   border:1px solid red;
+  position:relative;
+}
+
+.countriesText {
+
+  width:60%;
+  height:60%;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  border:1px solid red;
+}
+
+.countries span {
+
+  position: absolute;
+  left:30%;
+  top:25%;
+  font-size: 300%;
+  font-weight: bold;
+  text-align: left;
+  transform: translate(-30%,-40%);
+
+}
+
+.countries p {
+
+  position: absolute;
+  left:35%;
+  top:40%;
+  text-align: left;
+  margin:0 auto;
+  transform: translateX(-30%);
+  line-height: 30px;
+
 }
 
 .examples {
@@ -619,6 +655,35 @@ border-right: none;
   height:100%;
   float:right;
   border:1px solid red;
+  position:relative;
+}
+
+.companies {
+
+  width: 90%;
+  height: 40%;
+  border:1px solid red;
+  position: absolute;
+  left:50%;
+  top:15%;
+  transform:translate(-50%, -15%);
+
+}
+
+.company {
+
+  width:25%;
+  height:50%;
+  float:left;
+  border:1px solid red;
+}
+
+.company img {
+
+  width:80%;
+  padding:10%;
+  height: auto;
+  margin-top: 5%
 }
 
 .today {
@@ -632,16 +697,60 @@ border-right: none;
 
 .start {
 
-  width:40%;
+  width:50%;
   height:100%;
   float:left;
   border:1px solid red;
+  position: relative;
 
+}
+
+.startText {
+
+  width:100%;
+  height:90%;
+  border:1px solid red;
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  padding:8%;
+
+}
+
+.startText span {
+
+  font-size: 220%;
+  font-weight: bold;
+  text-align: left;
+  margin-top:20%;
+}
+
+.startText p {
+
+  line-height: 25px;
+  margin-top:20px;
+  text-align: left;
+}
+
+.startText button {
+
+  width: 50%;
+  height:25%;
+  background-color: #e55710;
+  color:white;
+  border-radius: 6%;
+  border:none;
+  margin-top: 25px;
+}
+
+.startText p.note {
+
+  font-size: 80%;
 }
 
 .smile {
 
-  width:60%;
+  width:50%;
   height:100%;
   float:right;
   border:1px solid red;
