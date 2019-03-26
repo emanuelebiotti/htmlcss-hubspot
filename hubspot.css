@@ -374,7 +374,6 @@ nav {
 
   width: 70%;
   height: 600px;
-  border:1px solid red;
   position: relative;
   top:55%;
   left:50%;
@@ -385,15 +384,83 @@ nav {
 
   width: 30%;
   height: 90%;
-  border:1px solid red;
   float:left;
   background-color: white;
 }
 
 .marketingHub {
 
-  position: absolute;
+  position: relative;
   left:0;
+}
+
+.marketingHub img {
+
+  width:40%;
+  height:auto;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top:10%;
+}
+
+.marketingText {
+
+  width:80%;
+  height:auto;
+  position:absolute;
+  left:50%;
+  top:45%;
+  transform: translate(-50%, -50%);
+
+}
+
+.marketingText h1 {
+
+  text-align: center;
+}
+
+
+.marketingText p {
+
+  line-height: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.popularFeatures {
+
+  width: 100%;
+  height:40%;
+  position: absolute;
+  bottom:0;
+}
+
+.popularFeatures p {
+
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.popularFeatures ul {
+
+  margin-top: 15px;
+  list-style-type: none;
+}
+
+.popularFeatures button {
+
+  width:130px;
+  height:50px;
+  position:absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%, 0%);
+  border-radius: 5%;
+  color:white;
+  background-color: #FF7A59;
 }
 
 .salesHub {
@@ -403,10 +470,32 @@ nav {
   transform: translateX(-50%);
 }
 
+.salesHub img {
+
+  width:40%;
+  height:auto;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top:10%;
+}
+
 .serviceHub {
 
   position: absolute;
   right:0;
+}
+
+.serviceHub img {
+
+  width:40%;
+  height:auto;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top:10%;
 }
 
 .community {
