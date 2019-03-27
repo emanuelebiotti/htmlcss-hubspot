@@ -778,6 +778,18 @@ footer {
 
 }
 
+ul.social {
+
+  margin-top:20px;
+}
+
+ul.social li {
+
+  display: inline-block;
+  margin:10px;
+
+}
+
 .languages {
 
   width:100%;
