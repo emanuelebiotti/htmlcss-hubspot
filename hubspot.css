@@ -11,6 +11,9 @@
   height: 75px;
   border-bottom: 1px solid #B0B0B0;
   background-color: #F4F8FA;
+  position: fixed;
+  top:0;
+  z-index:2;
 }
 
 nav {
@@ -19,6 +22,7 @@ nav {
   height: 90px;
   border-bottom: 1px solid #B0B0B0;
   background-color: white;
+  margin-top: 75px;
 
 }
 
